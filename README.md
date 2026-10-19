@@ -2,20 +2,20 @@
 
 
 ## Windows:
-Setting up from github (in cmd):
-git clone https://github.com/zshuhanzz/amyreads.git
-cd amyreads
-pip install PySide6 PyMuPDF
-python main.py
+Setting up from github (in cmd):\
+git clone https://github.com/zshuhanzz/amyreads.git\
+cd amyreads\
+pip install PySide6 PyMuPDF\
+python main.py\
 
 ### To build
 pyinstaller --onefile --windowed --name AmyReads main.py
 
 ## Mac:
-git clone https://github.com/zshuhanzz/amyreads.git
-cd amyreads
-pip3 install PySide6 PyMuPDF
-python3 main.py
+git clone https://github.com/zshuhanzz/amyreads.git\
+cd amyreads\
+pip3 install PySide6 PyMuPDF\
+python3 main.py\
 
 ### To build: 
 build.bat
