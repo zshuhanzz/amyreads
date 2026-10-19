@@ -3,7 +3,7 @@
 
 ## Windows:
 Setting up from github (in cmd):\
-git clone https://github.com/zshuhanzz/amyreads.git\
+git clone https://github.com/zshuhanzz/amyreads.git \
 cd amyreads\
 pip install PySide6 PyMuPDF\
 python main.py\
@@ -12,7 +12,7 @@ python main.py\
 pyinstaller --onefile --windowed --name AmyReads main.py
 
 ## Mac:
-git clone https://github.com/zshuhanzz/amyreads.git\
+git clone https://github.com/zshuhanzz/amyreads.git \
 cd amyreads\
 pip3 install PySide6 PyMuPDF\
 python3 main.py\
